@@ -3,7 +3,7 @@
 Class DbOps{
 
 private $db_conn;
-
+/*use an instance of PDO for construct*/
 public function __construct($pdo){
 	$this->db_conn = $pdo;
 }
